@@ -8,13 +8,13 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div style={{display:"gird"}}>       
-      <Navbar />
+    <div style={{ display: "gird" }}>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Route exact path={'/'} Component={Home}/>
-          <Route exact path={'/Login'} Component={Login}/>
-          <Route exact path={'/Signup'} Component={Signup}/>
+          <Route exact path={'/'} Component={Home} />
+          <Route exact path={'/Login'} Component={Login} />
+          <Route exact path={'/Signup'} Component={Signup} />
         </Routes>
       </BrowserRouter>
     </div>
