@@ -49,7 +49,7 @@ const LoginForm = () => {
                     onChange={handlePasswordChange}
                   />
                 </div>
-                <button type="submit" className="btn" style={{backgroundColor:'#ef9085',border:'1px solid white'}}>Login</button>
+                <button type="submit" className="btn" style={{border:'1px solid white'}}>Login</button>
               </form>
             </div>
           </div>
