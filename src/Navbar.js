@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -7,13 +8,13 @@ function Navbar() {
         <a className="navbar-brand" href="/" style={{ color: 'white' }}>AUTH</a>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/" style={{ color: 'white' }}>Home</a>
+              <Link className="nav-link" style={{ color: 'white' }} to={'/'}>Home</Link>
+            </li> 
+              <Link className="nav-link" style={{ color: 'white' }} to={'/Login'}>Login</Link>
+            <li className="nav-item">
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Login" style={{ color: 'white' }}>Login</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Signup" style={{ color: 'white' }}>SignUp</a>
+              <Link className="nav-link" style={{ color: 'white' }} to={'/Signup'}>Signin</Link>
             </li>
           </ul>
       </div>
