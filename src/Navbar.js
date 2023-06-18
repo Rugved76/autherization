@@ -10,8 +10,8 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" style={{ color: 'white' }} to={'/'}>Home</Link>
             </li> 
-              <Link className="nav-link" style={{ color: 'white' }} to={'/Login'}>Login</Link>
             <li className="nav-item">
+              <Link className="nav-link" style={{ color: 'white' }} to={'/Login'}>Login</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" style={{ color: 'white' }} to={'/Signup'}>Signin</Link>

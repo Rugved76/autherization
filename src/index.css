@@ -18,3 +18,17 @@ code {
 label{
   color: white;
 }
+
+.btn:hover{
+  background-color: #ef9085 ;
+  transition: 0.3s ease-in-out;
+}
+
+.card-header{
+  text-align: center;
+}
+
+.nav-link:hover{
+  opacity: 0.5;
+  transition: 0.3s ease-in-out;
+}
